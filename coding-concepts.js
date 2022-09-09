@@ -77,10 +77,24 @@ const index = 1;
 //==============================================================================
 
 const weekendDays = ["saturday", "sunday"];
-//console.log(weekendDays.toUpperCase())
+//console.log(weekendDays.toUpperCase());
 
 // a) Your answer:
+// Expected Output: ERROR Message
+// Explanation: this should return an error since the toUpperCase() works for
+// strings, and not arrays. You would need to access the strings in the array
+// individually and call the toUpperCase() method on each string to make them
+// capitalized.
+//-------------------------------
+// Examples:
+// console.log(weekendDays[0].toUpperCase()) //Expected Output: 'SATURDAY'
+// console.log(weekendDays[1].toUpperCase()) //Expected Output: 'SUNDAY'
+// console.log(weekendDays.toString().toUpperCase())
+// Expected Output: 'SATURDAY,SUNDAY'
+
 // b) Verify and explain:
+// according to: MDN Web Docs, the toUpperCase() method is used to convert
+// strings to uppercase.
 
 //==============================================================================
 // --------------------5) What will this log?
