@@ -126,8 +126,16 @@ console.log(myNumbers.lastIndexOf(givenValue2)); // Expected output: 8
 // Describe your process:
 //==============================================================================
 
-const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76];
-// Expected output: [82, 80, 79, 77, 76, 73, 72]
+// created a function to easily sort then reverse the tempuratues.
+// combined the sort() method and reverse() method to complete this task.
+const sortTemps = (temp) => {
+  return console.log(temp.sort().reverse());
+};
 
+const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76];
 const sanDiegoWinterTemperatures = [59, 68, 62, 59, 66, 67, 66];
+
+sortTemps(sanDiegoSummerTemperatures);
+// Expected output: [82, 80, 79, 77, 76, 73, 72]
+sortTemps(sanDiegoWinterTemperatures);
 // Expected output: [68, 67, 66, 66, 62, 59, 59]
