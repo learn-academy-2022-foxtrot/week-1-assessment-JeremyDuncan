@@ -71,6 +71,7 @@ determineBoilingPoint(temp3); // Expected output: "212 is at boiling point"
 //==============================================================================
 // Describe your process:
 //==============================================================================
+
 // declare the variable I will use to show array length
 let padresCombinedArrayLength;
 // the two arrays i will combine
@@ -92,13 +93,23 @@ console.log(padresCombinedArrayLength); // Expected output: 9
 // Describe your process:
 //==============================================================================
 
+// Provided challenge string
 const currentCohort = "Foxtrot 2022";
+// stores the string into an array with split() method...
+// combined with reverse() method
+const reverseWordStorageArr = currentCohort.split("").reverse();
+// joins array back into a string, now in reverse order
+const reversedString = reverseWordStorageArr.join("");
+
+console.log(reversedString); // Expected); // Expected output:
 // Expected output: "2202 tortxoF"
 
+//==============================================================================
 // --------------------4) Create the code that will return the last index of
 // the given value from the array using the test variables provided below.
-
+//==============================================================================
 // Describe your process:
+//==============================================================================
 
 const myNumbers = [13, 34, 42, 5, 5, 10, 27, 42, 10];
 const givenValue1 = 42;
