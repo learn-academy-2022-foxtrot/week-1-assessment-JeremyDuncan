@@ -14,8 +14,8 @@
 // Determine how long each string is by using .length() function
 
 // Set one:
-const fruit1 = "apple";
-const fruit2 = "banana";
+//const fruit1 = "apple";
+//const fruit2 = "banana";
 // Expected outcome: "banana"
 
 // Set two:
@@ -101,8 +101,7 @@ const reverseWordStorageArr = currentCohort.split("").reverse();
 // joins array back into a string, now in reverse order
 const reversedString = reverseWordStorageArr.join("");
 
-console.log(reversedString); // Expected); // Expected output:
-// Expected output: "2202 tortxoF"
+console.log(reversedString); // Expected output: "2202 tortxoF"
 
 //==============================================================================
 // --------------------4) Create the code that will return the last index of
@@ -113,10 +112,12 @@ console.log(reversedString); // Expected); // Expected output:
 
 const myNumbers = [13, 34, 42, 5, 5, 10, 27, 42, 10];
 const givenValue1 = 42;
-// Expected output: 7
-
 const givenValue2 = 10;
-// Expected output: 8
+
+// I am using the lastIndexOf() method to get the value of the last index
+// of the two variables givenValue1 and givenValue2
+console.log(myNumbers.lastIndexOf(givenValue1)); // Expected output: 7
+console.log(myNumbers.lastIndexOf(givenValue2)); // Expected output: 8
 
 //==============================================================================
 // --------------------5) Create the code that will sort all the numbers in
