@@ -62,14 +62,22 @@ const index = 1;
 // console.log(languages[index])
 
 // a) Your answer:
+// Expected Output: "Ruby"
+// Explanation: this should be "Ruby" since the variable index, which has been
+// assigned the value of 1 is being used with bracket notation on the
+// languages array.
+
 // b) Verify and explain:
+// according to: https://www.dofactory.com/javascript/arrays
+// bracket notation with variables normally i for index, can be usefull for
+// iterating through an array when in a for-loop.
 
 //==============================================================================
 // --------------------4) What will this log?
 //==============================================================================
 
 const weekendDays = ["saturday", "sunday"];
-// console.log(weekendDays.toUpperCase())
+//console.log(weekendDays.toUpperCase())
 
 // a) Your answer:
 // b) Verify and explain:
