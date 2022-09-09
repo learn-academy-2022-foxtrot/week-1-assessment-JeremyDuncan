@@ -7,9 +7,8 @@
 // your initial answer was correct or incorrect.
 
 // --------------------INSTRUCTOR EXAMPLE: What will this log?
-const colors = ["tangerine", "magenta", "lilac", "daffodil"];
+//const colors = ["tangerine", "magenta", "lilac", "daffodil"];
 // console.log(colors.push("indigo"))
-
 // a) Your answer:
 // b) Verify and explain:
 
@@ -21,12 +20,12 @@ const cohort = "LEARN 2022";
 // console.log(cohort.length)
 
 // a) Your answer:
-// expected output: 10
+// Expected Output: 10
 // Explanation: This should be 10 since the .length() method counts not just the
 // characters, but the spaces inside a string too.
 
-// b) Verify and explain: according to:
-// https://www.w3schools.com/jsref/jsref_length_string.asp,
+// b) Verify and explain:
+// according to: https://www.w3schools.com/jsref/jsref_length_string.asp,
 // the length() method returns the length of the string.
 // according to: MDN Webdocs, length is also used to determine the length
 // the elements of an array.
@@ -43,7 +42,16 @@ const greeting = "Hello World!";
 // console.log(greeting[4])
 
 // a) Your answer:
+// Expected Output: "o"
+// Explanation: This should be "o" since bracket notation is being used to call
+// index 4 of the string, similar to how an array works.
+
 // b) Verify and explain:
+// according to:
+// https://towardsdev.com/javascript-strings-bracket-notation-15efdbf8c354,
+// bracket notation can be used to display a character in a string, but cannot
+// be used to mutate individual characters in a string (unlike what you can do
+// with an array).
 
 //==============================================================================
 // --------------------3) What will this log?
