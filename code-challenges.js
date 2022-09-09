@@ -71,10 +71,19 @@ determineBoilingPoint(temp3); // Expected output: "212 is at boiling point"
 //==============================================================================
 // Describe your process:
 //==============================================================================
-
+// declare the variable I will use to show array length
+let padresCombinedArrayLength;
+// the two arrays i will combine
 const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4];
 const padres1998WorldSeriesRuns = [6, 3, 5, 3];
-// Expected output: 9
+
+// combine the two arrays and then get the length of combined array output
+// store value of array length in padresCombinedArrayLength variable
+padresCombinedArrayLength = padres1998WorldSeriesRuns.concat(
+  padres1984WorldSeriesRuns
+).length;
+
+console.log(padresCombinedArrayLength); // Expected output: 9
 
 //==============================================================================
 // --------------------3) Create the code that will reverse the letters of a
