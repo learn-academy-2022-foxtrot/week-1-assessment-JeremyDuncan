@@ -103,8 +103,29 @@ the values that comprise values like Booleans, Strings, arrays, and numbers.
 4. Compare and contrast arrays and strings.
 
 Your answer:
+Arrays and Strings Compared:
+* Arrays and strings are both primitives
+* They both can use bracket notation
+* They both have built in methods
+* They both can utilize an index
+* They both can hold a value
+* They can both be declared with var, const, and let
+* You can loop through an array and a string
+
+Arrays and Strings Contrasted:
+* Strings store string data only
+* Arrays can store strings, arrays, objects, integers, booleans, and floats
+* Strings cannot change the value with bracket notation
+* Arrays can change value with bracket notation
+
 
 Researched answer:
+According to: 
+http://www.differencebetween.net/technology/difference-between-array-and-string/,
+The main difference between arrays and strings is that arrays can have any data 
+type of any length while strings are ASCII characters. It goes on to say that 
+a string is a sequence of characters that is represented as a single data item, 
+and that an array is a sequenced collection of elements.  
 
 --- 
 <!--======================================================================== -->
