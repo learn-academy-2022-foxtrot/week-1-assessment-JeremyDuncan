@@ -29,10 +29,12 @@ const cohort = "LEARN 2022";
 // the length() method returns the length of the string.
 // according to: MDN Webdocs, length is also used to determine the length
 // the elements of an array.
-//-----------------------------
+
+//------------------------------------------------------------------------------
 // example:
 // const arr = [1, 2, 3, 4, 5]
 // arr.length // returns 5, the number of elements in the array
+//------------------------------------------------------------------------------
 
 //==============================================================================
 // --------------------2) What will this log?
@@ -85,12 +87,14 @@ const weekendDays = ["saturday", "sunday"];
 // strings, and not arrays. You would need to access the strings in the array
 // individually and call the toUpperCase() method on each string to make them
 // capitalized.
-//-------------------------------
+
+//------------------------------------------------------------------------------
 // Examples:
 // console.log(weekendDays[0].toUpperCase()) //Expected Output: 'SATURDAY'
 // console.log(weekendDays[1].toUpperCase()) //Expected Output: 'SUNDAY'
 // console.log(weekendDays.toString().toUpperCase())
 // Expected Output: 'SATURDAY,SUNDAY'
+//------------------------------------------------------------------------------
 
 // b) Verify and explain:
 // according to: MDN Web Docs, the toUpperCase() method is used to convert
@@ -104,4 +108,21 @@ const dataTypes = ["number", "string", "Boolean"];
 // console.log(typeof dataTypes.length)
 
 // a) Your answer:
+// Expected Output: 'number'
+// Explanation: When using typeof in conjuction with a number, or in this
+// instance an array calling the length method, which returns a number,
+// it returns that the value is a number.
+
 // b) Verify and explain:
+// according to: MDN Web Docs, typeof is called an operator, and returns a
+// string representing the operands value.
+
+//------------------------------------------------------------------------------
+// examples:
+//const arr = [1, 2, 3, 4];
+
+//console.log(typeof 5);          // Expected Output: 'number'
+//console.log(typeof "homework"); // Expected Output: 'string'
+//console.log(typeof true);       // Expected Output: 'boolean'
+//console.log(typeof arr);        // Expected Output: 'array'
+//------------------------------------------------------------------------------
