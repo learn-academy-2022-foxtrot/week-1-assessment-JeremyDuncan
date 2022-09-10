@@ -48,6 +48,7 @@ manage code.
 Your answer: 
 * Javascript operators that will return a Boolean value include
 '< <= > >= == === ! && || != !=='
+
 examples:
 ```javascript
 (3 > 2)             // true
@@ -133,8 +134,19 @@ and that an array is a sequenced collection of elements.
 roles of each person?
 
 Your answer:
+* Proper pair programming techniques would revolve around team members effectively
+communicating and collaborating with each other to solve problems. This would 
+involve one team member that is actively inputing code based on what the other 
+member is suggesting.  
 
 Researched answer:
+* According to techtarget.com:
+https://www.techtarget.com/searchsoftwarequality/definition/Pair-programming#:~:text=Pair%20programming%20is%20an%20Agile,code%20and%20test%20user%20stories.,
+pair programming is an Agile software development technique that originated from 
+Extreme Programing (XP). The site goes on the say the common implementation of
+pair programming calls for a "driver", the person at the keyboard, and the 
+"Navigator", the person who focuses on the overall direction of the programming.
+Ideally that both members should have equal time at the keyboard.
 
 --- 
 <!-- ======================================================================= -->
