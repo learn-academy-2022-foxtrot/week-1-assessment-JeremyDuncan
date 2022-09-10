@@ -126,7 +126,7 @@ console.log(myNumbers.lastIndexOf(givenValue2)); // Expected output: 8
 // Describe your process:
 //==============================================================================
 
-// created a function to easily sort then reverse the tempuratues.
+// created a function to easily sort then reverse the temperatures.
 // combined the sort() method and reverse() method to complete this task.
 const sortTemps = (temp) => {
   return console.log(temp.sort().reverse());
