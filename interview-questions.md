@@ -15,8 +15,9 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 Your answer:
 
 Researched answer:
-<!-- ======================================================================= -->
 
+--- 
+<!-- ======================================================================= -->
 1. What is git? What is the difference between git and Github?
 
 Your answer: 
@@ -40,24 +41,48 @@ a plethora of information with everything git.
 website and cloud-based service that provides devolopers a way to store and 
 manage code.
 
+--- 
+<!-- ======================================================================= -->
 2. Which JavaScript operators will return a Boolean value?
 
-Your answer:
+Your answer: 
+* Javascript operators that will return a Boolean value include
+'< <= > >= == === ! && || != !=='
+examples:
+```javascript
+(3 > 2)             // true
+(3 < 2)             // false
+(3 === 2)           // false
+(3 !== 2)           // true
+(3 > 2 && 2 > 3)    // false
+(3 > 2 || 2 > 3)    // true
+(3 >= 3 && 2 >= 2)  // true
+```
 
-Researched answer:
+Researched answer: 
+* According to MDN Web Docs, the following operators 
+'< <= > >= == === ! && || != !==' are refered to as comparison operators. They
+compare its operands and return a logical value based on whether the comparison
+is true. The operands can be Numerical, string, logical, or object values.
 
+--- 
+<!-- ======================================================================= -->
 3. What is an index? What is the difference between index and value?
 
 Your answer:
 
 Researched answer:
 
+--- 
+<!-- ======================================================================= -->
 4. Compare and contrast arrays and strings.
 
 Your answer:
 
 Researched answer:
 
+--- 
+<!--======================================================================== -->
 5. Give a brief description of proper pair programming techniques. What are the 
 roles of each person?
 
@@ -65,6 +90,8 @@ Your answer:
 
 Researched answer:
 
+--- 
+<!-- ======================================================================= -->
 ## Looking Ahead: Terms for Next Week
 
 Research and define the following terms to the best of your ability.
