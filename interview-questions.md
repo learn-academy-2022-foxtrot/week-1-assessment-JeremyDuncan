@@ -60,18 +60,43 @@ examples:
 ```
 
 Researched answer: 
-* According to MDN Web Docs, the following operators 
-'< <= > >= == === ! && || != !==' are refered to as comparison operators. They
-compare its operands and return a logical value based on whether the comparison
-is true. The operands can be Numerical, string, logical, or object values.
+* According to: 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators, 
+the following operators '< <= > >= == === ! && || != !==' are refered to as 
+comparison operators. They compare its operands and return a logical value 
+based on whether the comparison is true. The operands can be Numerical, string, 
+logical, or object values.
 
 --- 
 <!-- ======================================================================= -->
 3. What is an index? What is the difference between index and value?
 
-Your answer:
+Your answer: 
+* An index is a location reference used in arrays and strings. JavaScript uses a
+zero based index system, meaning it starts the index at 0. An index number can 
+be stored in a variable as well to make understanding the code easier, and other 
+situations such as going through an array during a loop where the index needs
+to change every loop.  
 
+* The difference between index and value is that you use the index to find the 
+value. 
+
+Example:
+```javascript
+arr = ["Cat", "Dog", "Rabbit"];
+arr[0] // index: 0, value: "Cat"
+arr[1] // index: 1, value: "Dog"
+arr[2] // index: 2, value: "Rabbit" 
+```
 Researched answer:
+* According to: 
+https://www.digitalocean.com/community/tutorials/understanding-arrays-in-javascript#indexing-arrays, 
+Arrays do not have name/value pairs. Instead, they are indexed with integer 
+values beginning with 0.
+* According to: https://www.educba.com/javascript-values/, JavaScript values are 
+the values that comprise values like Booleans, Strings, arrays, and numbers. 
+
+
 
 --- 
 <!-- ======================================================================= -->
