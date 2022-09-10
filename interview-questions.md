@@ -154,12 +154,21 @@ Ideally that both members should have equal time at the keyboard.
 
 Research and define the following terms to the best of your ability.
 
-1. Higher Order Functions:
+1. Higher Order Functions: Functions that take functions as arguments or return 
+   them. Some of these functions include:
+   * map() - returns results based on the results of calling a provided function
+     on every element.
+   * filter() - returns only values of array or object if set condition equals 
+     true. 
+   * reduce() - used to reduce values in an array to a single value  
 
-2. Jest:
+2. Jest: Jest is a testing framework used with JavaScript for test driven 
+   development (TDD). 
 
-3. Objects:
+3. Objects: Objects are data types that store data as a key:value pair. 
 
-4. Method:
+4. Method: A function of an Object. (in some languages, all functions are 
+   technically methods due to Object Oriented Design (OOD) )
 
-5. Classes:
+5. Classes: A blueprint of an object. Once a class is declared, multiple 
+   objects can be created from it. 
