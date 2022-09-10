@@ -120,7 +120,6 @@ const dataTypes = ["number", "string", "Boolean"];
 //------------------------------------------------------------------------------
 // examples:
 //const arr = [1, 2, 3, 4];
-
 //console.log(typeof 5);          // Expected Output: 'number'
 //console.log(typeof "homework"); // Expected Output: 'string'
 //console.log(typeof true);       // Expected Output: 'boolean'
